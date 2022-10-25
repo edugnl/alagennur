@@ -1,0 +1,6 @@
+teste = float(input("teste:"))
+prova = float(input("prova:"))
+avp = float(input("avp:"))
+simulado = float(input("simulado: "))
+média = ((teste*2 + prova*2 + avp)/5+simulado)
+print("Sua média é {:.1f}".format(média))
